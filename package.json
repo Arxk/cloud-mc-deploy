@@ -1,0 +1,31 @@
+{
+  "name": "cloud-mc-deploy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@inkline/inkline": "^2.0.0",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "moment": "^2.27.0",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-toast-notification": "^0.4.1"
+  },
+  "devDependencies": {
+    "@inkline/vue-cli-plugin-inkline": "~2.2.3",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
